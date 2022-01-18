@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "YXY",
+        "#B#",
+        "E#E"
+    ],
+    "key": {
+        "Y": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "X": {
+            "item": "minecraft:diamond"
+        },
+        "#": {
+            "item": "minecraft:experience_bottle"
+        },
+        "B": {
+            "item": "minecraft:book"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
