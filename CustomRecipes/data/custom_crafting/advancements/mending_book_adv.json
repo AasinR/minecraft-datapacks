@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "custom_crafting:mending_book"
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_crafting:give_mending_book"
+    }
+}

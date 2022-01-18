@@ -1,0 +1,1 @@
+tellraw @a {"text": "Data Pack loaded: Custom Recipes", "color": "#FF0000"}
