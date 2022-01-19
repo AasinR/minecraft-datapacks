@@ -3,7 +3,7 @@
     "pattern": [
         "YXY",
         "#B#",
-        "E#E"
+        "A#A"
     ],
     "key": {
         "Y": {
@@ -18,8 +18,8 @@
         "B": {
             "item": "minecraft:book"
         },
-        "E": {
-            "item": "minecraft:emerald"
+        "A": {
+            "item": "minecraft:amethyst_shard"
         }
     },
     "result": {
