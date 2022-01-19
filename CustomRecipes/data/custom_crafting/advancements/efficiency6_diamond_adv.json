@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "custom_crafting:efficiency6_diamond"
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_crafting:give_efficiency6_diamond"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "AXA",
+        "#A#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:paper"
+        },
+        "Y": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "X": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
