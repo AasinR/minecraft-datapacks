@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "recolor:glass_pane_types"
+        },
+        "X": {
+            "item": "minecraft:green_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_stained_glass_pane",
+        "count": 8
+    },
+    "group": "recolor_stained_glass_pane"
+}
