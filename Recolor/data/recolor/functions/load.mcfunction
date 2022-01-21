@@ -1,0 +1,1 @@
+tellraw @a {"text": "Data Pack loaded: Recolor", "color": "#FF0000"}

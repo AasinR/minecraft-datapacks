@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "recolor:glass_types"
+        },
+        "X": {
+            "item": "minecraft:black_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_stained_glass",
+        "count": 8
+    },
+    "group": "recolor_stained_glass"
+}
