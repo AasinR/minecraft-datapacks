@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "recolor:wool_types"
+        },
+        {
+            "item": "minecraft:lime_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lime_wool",
+        "count": 1
+    },
+    "group": "recolor_wool"
+}
