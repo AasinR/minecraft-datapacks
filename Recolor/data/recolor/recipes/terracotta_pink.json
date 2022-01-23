@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "recolor:terracotta_types"
+        },
+        "X": {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_terracotta",
+        "count": 8
+    },
+    "group": "recolor_terracotta"
+}
