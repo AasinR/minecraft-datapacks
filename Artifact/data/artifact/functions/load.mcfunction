@@ -1,0 +1,1 @@
+tellraw @a {"text": "Data Pack loaded: Artifact", "color": "#FF0000"}
