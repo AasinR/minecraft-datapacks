@@ -1,0 +1,2 @@
+# give test_artifact item on load
+give @s enchanted_book{display:{Name:'{"text":"Ender Artifact","color":"dark_purple","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}',Lore:['{"text":"They will float...","color":"light_purple","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}','{"text":"You won\'t!","color":"light_purple","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}']},CustomModelData:673501,artifact:1b,artifact_type:673501} 1
