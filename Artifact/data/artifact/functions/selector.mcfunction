@@ -8,3 +8,4 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:enchanted_book"}
 
 # run selected script
 execute if score @s artifact_type matches 673501 as @s run function artifact:ender
+execute if score @s artifact_type matches 673502 as @s run function artifact:scorched
