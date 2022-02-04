@@ -1,0 +1,2 @@
+# give nautic artifact to player
+give @p carrot_on_a_stick{display:{Name:'{"text":"Nautic Artifact","color":"dark_aqua","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}',Lore:['{"text":"Maybe Gustave won\'t eat you!","color":"aqua","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:673503,artifact:1b,artifact_type:673503} 1
