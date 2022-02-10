@@ -8,5 +8,5 @@ execute as @a if score @s inHand matches 0 run function artifact:not_in_hand
 
 # reset scores
 scoreboard players set @a[scores={inHand=1}] inHand 0
-execute unless score %timer summonStormTimer matches 0 run scoreboard players remove %timer summonStormTimer 1
 scoreboard players set @a[scores={nauticUsed=1..}] nauticUsed 0
+scoreboard players remove @a[scores={stormTimer=1..}] stormTimer 1
