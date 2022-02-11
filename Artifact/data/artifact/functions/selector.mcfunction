@@ -2,6 +2,7 @@
 #   ender: 673501
 #   scorched: 673502
 #   nautic: 673503
+#   wanderer: 673504
 execute if entity @s[nbt={SelectedItem: {tag: {artifact: 1b}}}] store result score @s artifact_type run data get entity @s SelectedItem.tag.artifact_type
 
 execute if entity @s[nbt={Inventory:[{Slot: -106b, tag: {artifact: 1b}}]}] store result score @s artifact_type run data get entity @s Inventory[{Slot:-106b}].tag.artifact_type
@@ -13,4 +14,5 @@ scoreboard players set @s inHand 1
 execute if score @s artifact_type matches 673501 as @s run function artifact:ender
 execute if score @s artifact_type matches 673502 as @s run function artifact:scorched
 execute if score @s artifact_type matches 673503 as @s run function artifact:nautic
+execute if score @s artifact_type matches 673504 as @s run function artifact:wanderer
 execute unless score @s artifact_type matches 673502 as @s run team leave @s

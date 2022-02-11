@@ -1,0 +1,2 @@
+# give wanderer artifact to player
+give @s enchanted_book{display:{Name:'{"text":"Wanderer Artifact","color":"dark_green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}',Lore:['{"text":"Run you fools!","color":"green","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}']},CustomModelData:673504,artifact:1b,artifact_type:673504} 1

@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XCW",
+        "C#H",
+        "WBS"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:ender_eye"
+        },
+        "C": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "W": {
+            "item": "minecraft:nether_wart"
+        },
+        "#": {
+            "item": "minecraft:suspicious_stew"
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        },
+        "B": {
+            "item": "minecraft:glow_berries"
+        },
+        "S": {
+            "item": "minecraft:nautilus_shell"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

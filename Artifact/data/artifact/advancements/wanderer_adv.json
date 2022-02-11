@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "artifact:wanderer_artifact"
+            }
+        }
+    },
+    "rewards": {
+        "function": "artifact:craft_wanderer"
+    }
+}

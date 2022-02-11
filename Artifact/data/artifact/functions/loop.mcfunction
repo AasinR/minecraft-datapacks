@@ -6,6 +6,9 @@ execute as @a[nbt={Inventory: [{Slot: -106b, tag: {artifact: 1b}}]}] run functio
 # in hand detection
 execute as @a if score @s inHand matches 0 run function artifact:not_in_hand
 
+# custom crafting remove output
+function artifact:remove_crafting_item
+
 # reset scores
 scoreboard players set @a[scores={inHand=1}] inHand 0
 scoreboard players set @a[scores={nauticUsed=1..}] nauticUsed 0
