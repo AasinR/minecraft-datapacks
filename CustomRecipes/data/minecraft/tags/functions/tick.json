@@ -1,5 +1,5 @@
 {
     "values": [
-        "custom_crafting:tick"
+        "custom_crafting:loop"
     ]
 }
