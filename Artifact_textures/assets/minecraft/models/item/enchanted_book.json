@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/enchanted_book"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 673501}, "model": "item/artifacts/ender_artifact"},
+        {"predicate": {"custom_model_data": 673502}, "model": "item/artifacts/scorched_artifact"},
+        {"predicate": {"custom_model_data": 673504}, "model": "item/artifacts/wanderer_artifact"}
+    ]
+}
