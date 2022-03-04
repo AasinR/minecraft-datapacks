@@ -29,7 +29,25 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text":"Maybe Gustave won't eat you!",
+                                    "text":"While holding this powerful tool,",
+                                    "color": "aqua",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text":"Thor compared to you",
+                                    "color": "aqua",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text":"looks just like a fool!",
                                     "color": "aqua",
                                     "bold": false,
                                     "italic": true,

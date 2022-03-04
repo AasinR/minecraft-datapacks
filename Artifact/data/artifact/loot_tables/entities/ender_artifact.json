@@ -29,7 +29,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "They will float...",
+                                    "text": "You being the",
                                     "color": "light_purple",
                                     "bold": false,
                                     "italic": true,
@@ -38,7 +38,25 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text":"You won't!",
+                                    "text": "finder of this relic,",
+                                    "color": "light_purple",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "levitation does not",
+                                    "color": "light_purple",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text":"affect you one bit!",
                                     "color": "light_purple",
                                     "bold": false,
                                     "italic": true,
