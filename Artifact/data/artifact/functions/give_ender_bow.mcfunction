@@ -1,0 +1,2 @@
+# give ender bow to player
+give @p bow{display:{Name:'{"text":"Ender Bow","color":"dark_purple","italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}',Lore:['{"text":"With an artifact within your reach,","color":"light_purple","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}','{"text":"let the beast in the weapon be unleashed!","color":"light_purple","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}']},CustomModelData:673601} 1
