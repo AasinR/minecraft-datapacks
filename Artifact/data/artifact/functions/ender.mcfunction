@@ -8,14 +8,14 @@ execute as @s[nbt={SelectedItem: {id: "minecraft:bow", Count: 1b, tag: {CustomMo
 execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:bow", tag: {CustomModelData: 673601}}]},scores={arrow_shot=1..}] at @s run tag @e[type=minecraft:arrow,sort=nearest,limit=1] add ender_shot
 
 # give shot arrow custom potion effect
-execute as @s[nbt={SelectedItem: {id: "minecraft:bow", Count: 1b, tag: {CustomModelData: 673601}}},scores={arrow_shot=1..}] as @s run data merge entity @e[tag=ender_shot, sort=nearest, limit=1] {CustomPotionEffects:[{Id:27b,Amplifier:0b,Duration:1,ShowParticles:0b}],Potion:"minecraft:empty",CustomPotionColor:5375826}
+execute as @s[nbt={SelectedItem: {id: "minecraft:bow", Count: 1b, tag: {CustomModelData: 673601}}},scores={arrow_shot=1..}] as @s run data merge entity @e[tag=ender_shot, sort=nearest, limit=1] {CustomPotionEffects:[{Id:27,Amplifier:0b,Duration:1,ShowParticles:0b}],Potion:"minecraft:empty",CustomPotionColor:5375826}
 
-execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:bow", tag: {CustomModelData: 673601}}]},scores={arrow_shot=1..}] as @s run data merge entity @e[tag=ender_shot, sort=nearest, limit=1] {CustomPotionEffects:[{Id:27b,Amplifier:0b,Duration:1,ShowParticles:0b}],Potion:"minecraft:empty",CustomPotionColor:5375826}
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:bow", tag: {CustomModelData: 673601}}]},scores={arrow_shot=1..}] as @s run data merge entity @e[tag=ender_shot, sort=nearest, limit=1] {CustomPotionEffects:[{Id:27,Amplifier:0b,Duration:1,ShowParticles:0b}],Potion:"minecraft:empty",CustomPotionColor:5375826}
 
 # arrow effects (Id:27b, Amplifier:0b)
 execute as @e[tag=ender_shot] at @s run particle minecraft:dragon_breath ~ ~ ~ 0.0 0.0 0.0 0 2
 execute as @e[tag=ender_shot,nbt={inGround: 1b}] at @s run summon area_effect_cloud ~ ~ ~ {Radius:3f, Duration:60, Color:10949031, Potion:"minecraft:harming"}
-execute as @e[nbt={ActiveEffects:[{Id:27b, Amplifier:0b}]}] at @s run summon area_effect_cloud ~ ~ ~ {Radius:3f, Duration:60, Color:10949031, Potion:"minecraft:harming"}
+execute as @e[nbt={ActiveEffects:[{Id:27, Amplifier:0b}]}] at @s run summon area_effect_cloud ~ ~ ~ {Radius:3f, Duration:60, Color:10949031, Potion:"minecraft:harming"}
 execute as @e[tag=ender_shot,nbt={inGround: 1b}] at @s run kill @s
 
 # reset scoreboard

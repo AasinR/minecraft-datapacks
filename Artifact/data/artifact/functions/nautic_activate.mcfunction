@@ -22,4 +22,4 @@ scoreboard players operation @s secondTimer -= @s const
 execute unless score @s stormTimer matches 0 run tellraw @s [{"text": " ", "color": "#FC5454"}, {"text": "You can use this ability in ", "color": "#F9A129"}, {"score": {"name": "@s", "objective": "minuteTimer"}}, {"text": " min ", "color": "#F9A129"}, {"score": {"name": "@s", "objective": "secondTimer"}}, {"text": " seconds!", "color": "#F9A129"}]
 
 # set 20 minutes timer after use
-execute if score @s stormTimer matches 0 as @s[nbt={ActiveEffects:[{Id:29b}]}] run scoreboard players set @s stormTimer 24000
+execute if score @s stormTimer matches 0 as @s[nbt={ActiveEffects:[{Id:29}]}] run scoreboard players set @s stormTimer 24000
